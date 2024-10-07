@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://friendly-frangollo-4e7c4b.netlify.app",
+    origin: "https://peaceful-nasturtium-3b6cf1.netlify.app",
     credentials: true,
   })
 );
