@@ -13,6 +13,7 @@ const sendToken = async (user_data, res) => {
     expires: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
     httpOnly: true,
     secure: process.env.NODE_ENV === "production" ? true : false,
+    sameSite: "None", // Required for cross-site cookies
   };
 
   res.setHeader("Cache-Control", "no-store"); // Prevent caching
