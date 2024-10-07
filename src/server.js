@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://peaceful-nasturtium-3b6cf1.netlify.app",
+    origin: "https://sensational-dieffenbachia-d7d4e3.netlify.app",
     credentials: true,
   })
 );
